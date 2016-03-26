@@ -2,7 +2,7 @@
 
 This gem is a wrapper for [jackocnr/intl-tel-input Release v8.4.8](https://github.com/jackocnr/intl-tel-input)
 
-Since [ispyropoulos/intl-tel-input-rails](https://github.com/ispyropoulos/intl-tel-input-rails) has stopped maintaining the gem, however the origin plugin has been updated for quite a few versions, here we simply create a new one that are up to date.
+Since [ispyropoulos/intl-tel-input-rails](https://github.com/ispyropoulos/intl-tel-input-rails) seems to be no longer maintained, however the origin plugin has been updated for quite a few versions, here we simply create a new one that are up to date.
 
 ## Installation
 
