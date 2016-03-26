@@ -1,8 +1,8 @@
 # IntltelinputRails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/intltelinput_rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem is a wrapper for [jackocnr/intl-tel-input Release v8.4.8](https://github.com/jackocnr/intl-tel-input)
 
-TODO: Delete this and the text above, and describe your gem
+Since [ispyropoulos/intl-tel-input-rails](https://github.com/ispyropoulos/intl-tel-input-rails) has stopped maintaining the gem, however the origin plugin has been updated for quite a few versions, here we simply create a new one that are up to date.
 
 ## Installation
 
