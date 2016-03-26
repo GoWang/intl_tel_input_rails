@@ -1,3 +1,4 @@
+require "intltelinput_rails/engine"
 require "intltelinput_rails/version"
 
 module IntltelinputRails
