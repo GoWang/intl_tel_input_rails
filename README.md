@@ -23,9 +23,11 @@ Or install it yourself as:
 ## Usage
 
 Add the following directive to your Javascript manifest file:
+
     //= require intltelinput_rails
 
 Add the following directive to your Stylesheet manifest file:
+
     @import "intltelinput_rails";
 
 
