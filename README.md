@@ -30,6 +30,18 @@ Add the following directive to your Stylesheet manifest file:
 
     @import "intltelinput_rails";
 
+This gem has taken care of almost everything (assets placement, flag images path overriding, etc.) except for [initializing the plugin](https://github.com/jackocnr/intl-tel-input#getting-started). The gem does not initialize the plugin for you since the initialization is highly customizable (seen above link).
+
+NOTICE: No need for specifying the utils.js path when initialize the plugin, since the utils.js has been included in the asset pipeline already. 
+
+Example:
+
+```js
+$("#id_of_the_input").intlTelInput({
+    formatOnInit: true,
+    separateDialCode: true
+});
+```
 
 ## License
 
