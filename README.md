@@ -2,7 +2,7 @@
 
 This gem is a wrapper for [jackocnr/intl-tel-input Release v8.4.8](https://github.com/jackocnr/intl-tel-input)
 
-Since [ispyropoulos/intl-tel-input-rails](https://github.com/ispyropoulos/intl-tel-input-rails) has stopped maintaining the gem, however the origin plugin has been updated for quite a few versions, here we simply create a new one that are up to date.
+Since [ispyropoulos/intl-tel-input-rails](https://github.com/ispyropoulos/intl-tel-input-rails) has stopped maintaining the gem, however the origin plugin has been updated for quite a few versions, here we simply create a new one that is up to date.
 
 ## Installation
 
@@ -22,17 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following directive to your Javascript manifest file:
+    //= require intltelinput_rails
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/intltelinput_rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Add the following directive to your Stylesheet manifest file:
+    @import "intltelinput_rails";
 
 
 ## License
